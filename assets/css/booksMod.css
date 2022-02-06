@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  margin: 0;
+  font-weight: 600;
+}
+a, a:hover {
+  text-decoration: none;
+  color: #272727;
+}
+p {
+  font-weight: 300;
+}
+input[type=checkbox]:focus,
+input[type=text]:focus {
+  outline-offset: 0px;
+  outline: none;
+}
+.loadmore_btn{
+	background-color: #ddd;
+	border-radius: 2px;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: 800;
+	letter-spacing:1px;
+	cursor:pointer;
+	text-transform: uppercase;
+	padding: 10px 0;
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;  
+}
+.loadmore_btn:hover{
+	background-color: #767676;
+	color: #fff;
+}
+.book-list-container {
+  display: block;
+  background: #efefef;
+  margin: 0 auto;
+  padding: 10px;
+}
+.search-box label, .search-box input {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+}
+.search-box input {
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  width: 99%;
+}
+.search-box,
+.filters-box {
+  padding: 20px;
+}
+.books-list-sub-container h1 {
+  font-size: 28px;
+}
+.load-more-container {
+  text-align: center;
+}
+.load-more-container a {
+  width: auto;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+  text-transform: none;
+}
+.book a {
+  display: inline-block;
+}
+.filters-box ul li {
+ list-style-type: none;
+}
+
+/* New fixes */
+.site-header {
+  padding: 10px 0px;
+}
+
+.site-main {
+  padding: 0px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.book-genre {
+  color: #58595b;
+  margin: 5px 0px;
+  font-size: 14px;
+}
+
+.mainheadingux {
+  border-bottom: 2px solid #58595b;
+  width: fit-content;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+#keyword {
+  border-right: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.input-group-append span {
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  border-left: 0;
+}
+
+.label-append p,
+.label-append a {
+  margin: 5px 0px 0px 0px;
+  color: #272727;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.mr-3 {
+  margin-right: 8px;
+}
+
+.filter-checkbox-label {
+  color: #aaa;
+  font-weight: 400;
+}
+
+input[type=checkbox]:after {
+  display: none;
+}
+
+input[type=checkbox] {
+  border: 1px solid rgba(0,0,0,.25) !important;
+}
+
+.const-wh {
+  /* width: 355px; */
+  width: 100%;
+  height: 235px;
+  object-fit: cover;
+}
+/* New fixes */
